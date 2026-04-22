@@ -1,0 +1,21 @@
+# Smart City Traffic Monitor — Requirements
+# Python 3.11 ONLY
+# pip install -r requirements.txt
+
+# Core
+numpy==1.26.4
+opencv-python==4.9.0.80
+Pillow==10.3.0
+
+# AI Detection (CPU only)
+ultralytics==8.2.18
+torch==2.3.0
+torchvision==0.18.0
+
+# SORT Tracker dependency
+scipy==1.13.0
+
+# Dashboard
+streamlit==1.35.0
+pandas==2.2.2
+plotly==5.22.0
